@@ -2,7 +2,7 @@
 SQLyog Professional v12.2.6 (32 bit)
 MySQL - 5.6.27-log : Database - paf4
 *********************************************************************
-*/
+*/
 
 /*!40101 SET NAMES utf8 */;
 
@@ -28,7 +28,7 @@ CREATE TABLE `counter` (
 
 /*Data for the table `counter` */
 
-insert  into `counter`(`TableName`,`Counter`) values 
+insert  into `counter`(`TableName`,`Counter`) values 
 ('DKIspitnaPrijava',0);
 
 /*Table structure for table `dkispitnaprijava` */
