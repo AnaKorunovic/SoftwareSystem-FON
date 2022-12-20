@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="432.0" prefWidth="346.0" styleClass="akreditacija" stylesheets="@../CSS/stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AbstractProductA.Panel3">
+   <children>
+      <Label layoutX="45.0" layoutY="106.0" text="Број индекса" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="45.0" layoutY="155.0" text="Шифра предмета" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Button fx:id="Kreiraj" layoutX="210.0" layoutY="124.0" mnemonicParsing="false" styleClass="dugme" stylesheets="@../CSS/stylesheet.css" text="Креирај" textFill="#1b24d0" />
+      <Label layoutX="45.0" layoutY="316.0" text="Порука" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="45.0" layoutY="206.0" text="Оцена" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <TextField fx:id="SifraPrijave" layoutX="45.0" layoutY="72.0" prefHeight="25.0" prefWidth="51.0" />
+      <Label layoutX="45.0" layoutY="56.0" text="Шифра пријаве" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Button fx:id="Promeni" layoutX="208.0" layoutY="174.0" mnemonicParsing="false" styleClass="dugme" stylesheets="@../CSS/stylesheet.css" text="Промени" textFill="#1b24d0" />
+      <Button fx:id="Obrisi" layoutX="205.0" layoutY="224.0" mnemonicParsing="false" styleClass="dugme" stylesheets="@../CSS/stylesheet.css" text="Обриши" textFill="#1b24d0" />
+      <DatePicker fx:id="Datum" layoutX="46.0" layoutY="278.0" />
+      <Label layoutX="45.0" layoutY="255.0" text="Датум" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Button fx:id="naPrvi" layoutX="45.0" layoutY="385.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="35.0" styleClass="dugmePrvi" stylesheets="@../CSS/stylesheet.css" />
+      <Button fx:id="naPredhodni" layoutX="86.0" layoutY="385.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="35.0" styleClass="dugmePredhodni" stylesheets="@../CSS/stylesheet.css" />
+      <Button fx:id="naSledeci" layoutX="128.0" layoutY="385.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="35.0" styleClass="dugmeSledeci" stylesheets="@../CSS/stylesheet.css" />
+      <Button fx:id="naPoslednji" layoutX="170.0" layoutY="385.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="35.0" styleClass="dugmePoslednji" stylesheets="@../CSS/stylesheet.css" />
+      <TextField fx:id="BrojIndeksa" layoutX="44.0" layoutY="124.0" prefHeight="25.0" prefWidth="111.0" />
+      <TextField fx:id="Poruka" layoutX="46.0" layoutY="332.0" prefHeight="31.0" prefWidth="264.0" />
+      <ComboBox fx:id="Ocena" editable="true" layoutX="46.0" layoutY="224.0" prefHeight="31.0" prefWidth="119.0" />
+      <Button fx:id="Nadji" layoutX="210.0" layoutY="72.0" mnemonicParsing="false" styleClass="dugme" stylesheets="@../CSS/stylesheet.css" text="Нађи" textFill="#1b24d0" />
+      <TextField fx:id="SifraPredmeta" layoutX="44.0" layoutY="174.0" prefHeight="25.0" prefWidth="111.0" />
+   </children>
+</AnchorPane>
